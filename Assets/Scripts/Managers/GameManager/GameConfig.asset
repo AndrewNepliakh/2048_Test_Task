@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ace72a7a26b422580eb1988add4b009, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _levels:
+  - _level: 1
+    _requiredMergeValue: 16
+  - _level: 2
+    _requiredMergeValue: 32
+  - _level: 3
+    _requiredMergeValue: 64
+  - _level: 4
+    _requiredMergeValue: 128
+  - _level: 5
+    _requiredMergeValue: 512
+  - _level: 6
+    _requiredMergeValue: 1024
+  - _level: 7
+    _requiredMergeValue: 2048
